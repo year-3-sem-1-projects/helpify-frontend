@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   section: {
-    marginTop: 20,
+    marginTop: 5,
     marginHorizontal: width * 0.085,
     flexDirection: "row",
     justifyContent: "space-between",
