@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: "http://localhost:6543",
-});
+  baseURL: 'https://helpify.azurewebsites.net/api/',
+})
 
-export default instance;
+export default instance
