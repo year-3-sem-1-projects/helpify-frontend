@@ -12,6 +12,7 @@ import AddOddJobsScreen from "./src/screens/AddOddJobsScreen";
 import Helpify from "./src/components/Helpify";
 import { THEME_COLOR, BACKGROUND_COLOR } from "./src/styles/common";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Job from "./src/screens/Job";
 
 const img_url =
   "https://firebasestorage.googleapis.com/v0/b/edupox-fa864.appspot.com/o/circle%2Fall-might.jpg9a59c8e1-94ba-42ad-b9fe-708a1d2a010c?alt=media&token=a5f3c4dc-5169-4afb-a9f5-04358f6e2917";
@@ -191,6 +192,7 @@ function App() {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Personal" component={PersonalMenu} />
         <Stack.Screen name="Organization" component={OrganizationMenu} />
+        <Stack.Screen name="Job" component={Job} />
       </Stack.Navigator>
     </NavigationContainer>
   );
